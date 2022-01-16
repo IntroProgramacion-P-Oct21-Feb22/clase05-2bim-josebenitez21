@@ -7,8 +7,9 @@ package ejemplosrecursividad;
 public class Ejemplo06 {
 
     public static void main(String[] args) {
-        
-        System.out.printf("%d\n", obtenerSuma(10, 3));
+        int valor1=6;//3 //6
+        int valor2=1;//5 //1
+        System.out.printf("%d\n", obtenerSuma(valor1, valor2));
     }
 
     public static int obtenerSuma(int a, int b) {
